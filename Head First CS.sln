@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts", "scr\Chapter One\Contacts\Contacts.csproj", "{436F766D-E9C0-4872-87BF-4AFE6D48D96E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter One", "Chapter One", "{ED8E636F-6709-4DDD-B23F-8EEF69C2B4BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436F766D-E9C0-4872-87BF-4AFE6D48D96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436F766D-E9C0-4872-87BF-4AFE6D48D96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436F766D-E9C0-4872-87BF-4AFE6D48D96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436F766D-E9C0-4872-87BF-4AFE6D48D96E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{436F766D-E9C0-4872-87BF-4AFE6D48D96E} = {ED8E636F-6709-4DDD-B23F-8EEF69C2B4BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D02BC6FB-6055-4338-B196-DB62939D57E1}
+	EndGlobalSection
+EndGlobal
