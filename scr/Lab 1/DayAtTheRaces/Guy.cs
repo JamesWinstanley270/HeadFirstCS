@@ -35,7 +35,9 @@ namespace DayAtTheRaces
         /// </summary>
         public void UpdateLabels()
         {
-            MyLabel.Text = MyBet.GetDescription();
+            if (MyBet != null)
+                MyLabel.Text = MyBet.GetDescription();
+
             MyRadioButton.Text = $"{Name} has {Cash} bucks";
         }
 

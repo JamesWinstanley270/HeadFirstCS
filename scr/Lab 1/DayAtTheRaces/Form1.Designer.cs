@@ -171,6 +171,7 @@
             this.btnStart.TabIndex = 10;
             this.btnStart.Text = "Race!";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // numDogNumber
             // 

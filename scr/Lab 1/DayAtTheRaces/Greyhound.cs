@@ -37,7 +37,7 @@ namespace DayAtTheRaces
         /// <summary>
         /// Runs this instance.
         /// </summary>
-        /// <returns></returns>
+        /// <returns><c>true</c> when the greyhound finishes the race.</returns>
         public bool Run()
         {
             Point myPictureBoxLocation = MyPictureBox.Location;
@@ -45,7 +45,7 @@ namespace DayAtTheRaces
 
             myPictureBoxLocation.X += distance;
             MyPictureBox.Location = myPictureBoxLocation;
-            Location += myPictureBoxLocation.X;
+            Location = myPictureBoxLocation.X;
 
             if (Location >= RacetrackLength - MyPictureBox.Width)
                 return true;
